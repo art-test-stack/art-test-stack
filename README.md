@@ -32,29 +32,17 @@
 ![](https://github-profile-trophy.vercel.app/?username=art-test-stack)
 
 
-# ☕️ Support:
-
-<p><a href="https://www.buymeacoffee.com/artestack"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="artestack" /></a></p><br><br>
-
-
-<!-- 
-# 💻 Tech Stack:
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=art-test-stack&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=art-test-stack&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=art-test-stack&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) -->
-<!-- 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=art-test-stack&theme=nord&no-frame=true&no-bg=false&margin-w=4) -->
 
 # ✍️ Random Dev Quote
+
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-<!-- 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=art-test-stack&limit=5&combine_all_yearly_contributions=true) -->
 
 # 😂 Random Dev Meme
 <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
+
+# ☕️ Support:
+
+<p><a href="https://www.buymeacoffee.com/artestack"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="artestack" /></a></p><br><br>
 
 [![](https://visitcount.itsvg.in/api?id=art-test-stack&icon=0&color=0)](https://visitcount.itsvg.in)
 
