@@ -25,7 +25,7 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=art-test-stack&show_icons=true&locale=en)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=art-test-stack&)
-![](https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&show_icons=true&locale=en&layout=compact")<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=art-test-stack&show_icons=true&locale=en&layout=compact")<br/>
 
 
 # 🏆 GitHub Trophies
