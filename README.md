@@ -24,8 +24,9 @@
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=art-test-stack&show_icons=true&locale=en)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=art-test-stack&)
-![](https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&show_icons=true&locale=en&layout=compact")<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=art-test-stack&)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&show_icons=true&locale=en")<br/>
+<!-- ![](https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&show_icons=true&locale=en&layout=compact")<br/> -->
 
 
 # 🏆 GitHub Trophies
@@ -37,12 +38,13 @@
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-# 😂 Random Dev Meme
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
+<!-- # 😂 Random Dev Meme
+<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/> -->
 
 # ☕️ Support:
 
 <p><a href="https://www.buymeacoffee.com/artestack"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="artestack" /></a></p><br><br>
+
 
 [![](https://visitcount.itsvg.in/api?id=art-test-stack&icon=0&color=0)](https://visitcount.itsvg.in)
 
