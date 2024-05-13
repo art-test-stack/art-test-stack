@@ -26,20 +26,15 @@
 ![](https://github-readme-stats.vercel.app/api?username=art-test-stack&show_icons=true&locale=en)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=art-test-stack&)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&show_icons=true&locale=en)<br/>
-<!-- ![](https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&show_icons=true&locale=en&layout=compact")<br/> -->
 
 
 # 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=art-test-stack)
 
 
-
 # ✍️ Random Dev Quote
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-<!-- # 😂 Random Dev Meme
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/> -->
 
 # ☕️ Support:
 
