@@ -11,7 +11,6 @@ class TestStack:
     pass
 
 class Attributes(TestStack):
-	
 	@property
     def contact(self) -> Tuple[str, Dict[str, str]]:
         linkedin = "/in/arthur-testard/"
@@ -90,7 +89,7 @@ class Attributes(TestStack):
 				}
 			},
 		}
-		
+
 		return langs, prefs, ide, pc
 ```
 Template found here[^1].
