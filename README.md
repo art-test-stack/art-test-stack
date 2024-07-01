@@ -142,44 +142,25 @@ Template found here[^1].
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=apple,linux,ubuntu,windows" 
-	/>
-  </a>
-</p>
-
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,stackoverflow,docker,postgres,sqlite,azure,firebase,tailwind,latex," 
-	/>
-  </a>
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/CIRCLECI-02303A.svg?style=for-the-badge&logo=CIRCLECI&logoColor=white&color=%23343434" 
-	/>
+    <img src="https://skillicons.dev/icons?i=apple,linux,ubuntu,windows"/>
+    <img src="https://skillicons.dev/icons?i=git,github,stackoverflow,docker,postgres,sqlite,azure,firebase,tailwind,latex,"/>
+    <img src="https://img.shields.io/badge/CIRCLECI-02303A.svg?style=for-the-badge&logo=CIRCLECI&logoColor=white&color=%23343434"/>
 </p>
 
 
 # 📊 GitHub Stats:
 
 <p align="center">
-    <img alt="" src="https://github-readme-stats.vercel.app/api?username=art-test-stack&theme=tokyonight&show_icons=true&locale=en">
-</p>
-
-<p align="center">
-    <img alt="" src="https://streak-stats.demolab.com?user=art-test-stack&theme=tokyonight&hide_border=false">
-</p>
-
-<p href="" align="center">
-    <img alt="" src="https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&theme=tokyonight&show_icons=true&locale=en">
+    <img alt="" src="https://github-readme-stats.vercel.app/api?username=art-test-stack&theme=tokyonight&show_icons=true&locale=en&hide_border=true"/>
+    <img alt="" src="https://streak-stats.demolab.com?user=art-test-stack&theme=tokyonight&hide_border=true"/>
+    <img alt="" src="https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&layout=donut&theme=tokyonight&locale=en&hide_border=true"/>
 </p>
 
 
 # 🏆 GitHub Trophies
 
 <p href="" align="center">
-    <img alt="" src="https://github-profile-trophy.vercel.app/?username=art-test-stack&theme=tokyonight">
+	<img alt="" src="https://github-profile-trophy.vercel.app/?username=art-test-stack&theme=tokyonight"/>
 </p>
 
 
