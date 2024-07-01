@@ -31,40 +31,40 @@ def life(self) -> Tuple[Dict[str, str], int, List[str]]:
 		"Japanese": "Beginner",
 	}
 	age	= 25
-	passions = ["mathematics", "informatic", "physic", "cello", "hikes"]
+	passions	= ["mathematics", "informatic", "physic", "cello", "hikes"]
 	return langs, age, passions
 
 @property
-def experiences(self) -> Tuple[Dict[str, str],Dict[str, str]]:
+def experiences(self) -> Tuple[Dict[str, Dict[str, str]],Dict[str, Dict[str, str]]]:
 	"""More information on my linkedIn"""
 	studies = {
 		"ntnu": {
 			"univ"	: "Norwegian University of Science and Technology",
-			"dates"		: "2023-2025",
-			"degree"	: "master",
-			"spe": "artificial intelligence"
-			"loc": "no"
+			"dates"	: "2023-2025",
+			"degree": "master",
+			"spe"	: "artificial intelligence"
+			"loc"	: "no"
 		},
 		"ecn": {
 			"univ"	: "Ecole Centrale de Nantes",
-			"dates"		: "2020-2025",
-			"degree"	: "master",
-			"spe": "general engineering",
-			"loc": "fr"
+			"dates"	: "2020-2025",
+			"degree": "master",
+			"spe"	: "general engineering",
+			"loc"	: "fr"
 		}
 	}
 	internships = {
 		"rokken": {
-			"company": "@Rokken-lab6",
-			"dates": "2022/11-2023/05",
-			"role": "machine learning engineer intern",
-			"loc": "jp",
+			"firm"	: "@Rokken-lab6",
+			"dates"	: "2022/11-2023/05",
+			"role"	: "machine learning engineer intern",
+			"loc"	: "jp",
 		},
 		"padoa": {
-			"company": "@padoa",
-			"dates": "2022/04-2022/08",
-			"role": "fullstack developer",
-			"loc": "fr"
+			"firm"	: "@padoa",
+			"dates"	: "2022/04-2022/08",
+			"role"	: "fullstack developer",
+			"loc"	: "fr"
 		},
 	}
 	return studies, interships
