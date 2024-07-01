@@ -13,8 +13,8 @@ class TestStack:
 class Attributes(TestStack):
     @property
     def contact(self) -> Tuple[str, Dict[str, str]]:
-        linkedin = "/in/arthur-testard/"
-        emails    = { 
+        linkedin	= "/in/arthur-testard/"
+        emails    	= { 
 			"personal": "testardarthur@gmail.com",
 			"ecn"	  : "arthur.testard@eleves.ec-nantes.fr",
 			"ntnu"	  : "ajtestar@stud.ntnu.no",
