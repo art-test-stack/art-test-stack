@@ -15,7 +15,7 @@ class TestStack:
 class Attributes(TestStack):
     @property
     def contact(self) -> Tuple[str, Dict[str, str]]:
-        linkedin = "https://www.linkedin.com/in/arthur-testard/"
+        linkedin = "/in/arthur-testard/"
         email    = { 
 			"personal": "testardarthur@gmail.com",
 			"ecn"	  : "arthur.testard@eleves.ec-nantes.fr",
@@ -41,10 +41,10 @@ class Attributes(TestStack):
 		studies = {
 			"ntnu": {
 				"school_name"	: "Norwegian University of Science and Technology",
-				"dates"			: "2023-2025",
-				"degree"		: "master",
+				"dates"		: "2023-2025",
+				"degree"	: "master",
 				"specialization": ["artificial intelligence", "informatics"],
-				"website"		: "https://www.ntnu.edu/studies/msit",	
+				"website"	: "https://www.ntnu.edu/studies/msit",	
 			},
 			"ecn": {
 				"school_name"	: "Ecole Centrale de Nantes",
@@ -61,7 +61,7 @@ class Attributes(TestStack):
     @property
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
         langs = {
-            'expert'      : ['python'],
+            'good'      : ['python'],
             'intermediate': ['ts', 'js'],
             'learning'    : ['c', 'c++']
         }
@@ -98,8 +98,8 @@ class Attributes(TestStack):
 
 # 📊 GitHub Stats:
 
-<p align="center">
-![](https://github-readme-stats.vercel.app/api?username=art-test-stack&show_icons=true&locale=en)</p>
+<p align="center" href="https://github-readme-stats.vercel.app/api?username=art-test-stack&show_icons=true&locale=en">
+![]()</p>
 <p align="center">![](https://github-readme-streak-stats.herokuapp.com/?user=art-test-stack&)</p>
 <p align="center">![](https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&show_icons=true&locale=en)</p>
 
