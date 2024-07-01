@@ -1,10 +1,8 @@
 # Hi there 👋
 
-🧑🏼‍🎓 I'm a Franco-American double-degree student at [NTNU](https://www.ntnu.edu/studies/msit) (Norwegian University of Science and Technologies) in the Master of Science in Informatics specializing in artificial intelligence. I come from a preparatory class (French education system) which enabled me to enter the [Ecole Centrale de Nantes](https://www.ec-nantes.fr/) after the competitive entrance exam. 
+<!-- 🧑🏼‍🎓 I'm a Franco-American double-degree student at [NTNU](https://www.ntnu.edu/studies/msit) (Norwegian University of Science and Technologies) in the Master of Science in Informatics specializing in artificial intelligence. I come from a preparatory class (French education system) which enabled me to enter the [Ecole Centrale de Nantes](https://www.ec-nantes.fr/) after the competitive entrance exam.  -->
 
-🔭 I'm passionate about mathematics, machine learning and new technologies. I also have a keen interest in music and the physical sciences.
-
-🌱 I then try to share on this profile, my projects carried out as part of my studies, but also those carried out for my personal interest, mixing the fields in which I have a particular interest.
+<!-- 🌱 I then try to share on this profile, my projects carried out as part of my studies, but also those carried out for my personal interest, mixing the fields in which I have a particular interest. -->
 
 ```python
 from typing import Tuple, List, Dict
@@ -16,78 +14,79 @@ class Attributes(TestStack):
     @property
     def contact(self) -> Tuple[str, Dict[str, str]]:
         linkedin = "/in/arthur-testard/"
-        email    = { 
+        emails    = { 
 			"personal": "testardarthur@gmail.com",
 			"ecn"	  : "arthur.testard@eleves.ec-nantes.fr",
 			"ntnu"	  : "ajtestar@stud.ntnu.no",
 		}
-        return linkedin, email
+        return linkedin, emails
 
-@property
-def life(self) -> Tuple[Dict[str, str], int, List[str]]:
-	langs	= {
-		"French"  : "Native",
-		"English" : "Fluent",
-		"Japanese": "Beginner",
-	}
-	age	= 25
-	passions	= ["mathematics", "informatic", "physic", "cello", "hikes"]
-	return langs, age, passions
-
-@property
-def experiences(self) -> Tuple[Dict[str, Dict[str, str]], Dict[str, Dict[str, str]]]:
-	"""More information on my linkedIn"""
-	studies = {
-		"ntnu": {
-			"univ"	: "Norwegian University of Science and Technology",
-			"dates"	: "2023-2025",
-			"degree": "master",
-			"spe"	: "artificial intelligence"
-			"loc"	: "no"
-		},
-		"ecn": {
-			"univ"	: "Ecole Centrale de Nantes",
-			"dates"	: "2020-2025",
-			"degree": "master",
-			"spe"	: "general engineering",
-			"loc"	: "fr"
+	@property
+	def life(self) -> Tuple[List[str], Dict[str, str], int, List[str]]:
+		ids 	 = ["French", "American"]
+		langs	 = {
+			"French"  : "Native",
+			"English" : "Fluent",
+			"Japanese": "Beginner",
 		}
-	}
-	internships = {
-		"rokken": {
-			"firm"	: "@Rokken-lab6",
-			"dates"	: "2022/11-2023/05",
-			"role"	: "machine learning engineer intern",
-			"loc"	: "jp",
-		},
-		"padoa": {
-			"firm"	: "@padoa",
-			"dates"	: "2022/04-2022/08",
-			"role"	: "fullstack developer",
-			"loc"	: "fr"
-		},
-	}
-	return studies, interships
+		age		 = 25
+		passions = ["mathematics", "informatic", "physic", "cello", "hikes"]
+		return ids, langs, age, passions
 
-@property
-def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
-	langs = {
-		'good'      : ['python'],
-		'medium'	: ['ts', 'js'],
-		'learning'	: ['c', 'c++']
-	}
-	specialities  = ['ai', 'fullstack']
-	ide           = ['vscode', 'pycharm', 'webstorm']
-	pc            = {
-		'MacOS': {
-			'macbook pro m2': {
-				'processor': 'm2 | 8 cores',
-				'ram'      : '16gb',
-				'gpu'      : 'm2 | 8 cores'
+	@property
+	def experiences(self) -> Tuple[Dict[str, Dict[str, str]], Dict[str, Dict[str, str]]]:
+		"""More information on my linkedIn"""
+		studies 	= {
+			"ntnu": {
+				"univ"	: "Norwegian University of Science and Technology",
+				"dates"	: "2023-2025",
+				"degree": "master",
+				"spe"	: "artificial intelligence"
+				"loc"	: "no"
+			},
+			"ecn": {
+				"univ"	: "Ecole Centrale de Nantes",
+				"dates"	: "2020-2025",
+				"degree": "master",
+				"spe"	: "general engineering",
+				"loc"	: "fr"
 			}
-		},
-	}
-	return langs, specialities, ide, pc
+		}
+		internships = {
+			"rokken": {
+				"firm"	: "@Rokken-lab6",
+				"dates"	: "2022/11-2023/05",
+				"role"	: "machine learning engineer intern",
+				"loc"	: "jp",
+			},
+			"padoa": {
+				"firm"	: "@padoa",
+				"dates"	: "2022/04-2022/08",
+				"role"	: "fullstack developer",
+				"loc"	: "fr"
+			},
+		}
+		return studies, interships
+
+	@property
+	def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
+		langs 		  = {
+			'good'      : ['python'],
+			'medium'	: ['ts', 'js'],
+			'learning'	: ['c', 'c++']
+		}
+		specialities  = ['ai', 'fullstack']
+		ide           = ['vscode', 'pycharm', 'webstorm']
+		pc            = {
+			'MacOS': {
+				'macbook pro m2': {
+					'processor': 'm2 | 8 cores',
+					'ram'      : '16gb',
+					'gpu'      : 'm2 | 8 cores'
+				}
+			},
+		}
+		return langs, specialities, ide, pc
 ```
 Template found here[^1].
 
@@ -108,7 +107,7 @@ Template found here[^1].
 ## 🗣️ Languages
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,c,cs,cpp,js,ts,css,html,matlab,bash," />
+    <img src="https://skillicons.dev/icons?i=python,c,cs,cpp,js,ts,css,html,matlab,bash" />
   </a>
 </p>
 
@@ -127,7 +126,6 @@ Template found here[^1].
 	<img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"/>
     <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"/>
 	<img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white"/>
-	<img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
   </a>
 </p>
 
@@ -213,5 +211,7 @@ Template found here[^1].
 </p> -->
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+# 📚 References
 
 [^1]: https://github.com/xtekky/xtekky/blob/main/README.md?plain=1
