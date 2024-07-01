@@ -156,16 +156,14 @@ Template found here[^1].
 </p>
 
 <p align="center">
-  <a href="">
     <img src="https://img.shields.io/badge/CIRCLECI-02303A.svg?style=for-the-badge&logo=CIRCLECI&logoColor=white&color=%23343434" 
 	/>
-  </a>
 </p>
 
 
 # 📊 GitHub Stats:
 
-<p href="" align="center">
+<p align="center">
     <img alt="" src="
 		https://github-readme-stats.vercel.app/api?username=art-test-stack&theme=tokyonight&show_icons=true&locale=en">
 </p>
