@@ -167,7 +167,7 @@ Template found here[^1].
     <img alt="" src="https://github-readme-stats.vercel.app/api?username=art-test-stack&theme=tokyonight&show_icons=true&locale=en">
 </p>
 
-<p href="https://git.io/streak-stats" align="center">
+<p align="center">
     <img alt="" src="https://streak-stats.demolab.com?user=art-test-stack&theme=tokyonight&hide_border=false">
 </p>
 
