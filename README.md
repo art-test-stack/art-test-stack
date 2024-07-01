@@ -21,74 +21,73 @@ class Attributes(TestStack):
 			"ecn"	  : "arthur.testard@eleves.ec-nantes.fr",
 			"ntnu"	  : "ajtestar@stud.ntnu.no",
 		}
-	    
         return linkedin, email
 
-    @property
-    def life(self) -> Tuple[Dict[str, str], int, List[str]]:
-        langs	= {
-			"French"  : "Native",
-			"English" : "Fluent",
-			"Japanese": "Beginner",
-		}
-        age	= 25
-		passions	= ["mathematics", "informatic", "physic", "cello", "hikes"]
-        return langs, age, passions
-	
-	@property
-	def experiences(self) -> Tuple[Dict[str, str],Dict[str, str]]:
-		"""More information on my linkedIn"""
-		studies = {
-			"ntnu": {
-				"univ"	: "Norwegian University of Science and Technology",
-				"dates"		: "2023-2025",
-				"degree"	: "master",
-				"spe": "artificial intelligence"
-				"loc": "no"
-			},
-			"ecn": {
-				"univ"	: "Ecole Centrale de Nantes",
-				"dates"		: "2020-2025",
-				"degree"	: "master",
-				"spe": "general engineering",
-				"loc": "fr"
-			}
-		}
-		internships = {
-			"rokken": {
-				"company": "@Rokken-lab6",
-				"dates": "2022/11-2023/05",
-				"role": "machine learning engineer intern",
-				"loc": "jp",
-			},
-			"padoa": {
-				"company": "@padoa",
-				"dates": "2022/04-2022/08",
-				"role": "fullstack developer",
-				"loc": "fr"
-			},
-		}
-		return studies, interships
+@property
+def life(self) -> Tuple[Dict[str, str], int, List[str]]:
+	langs	= {
+		"French"  : "Native",
+		"English" : "Fluent",
+		"Japanese": "Beginner",
+	}
+	age	= 25
+	passions = ["mathematics", "informatic", "physic", "cello", "hikes"]
+	return langs, age, passions
 
-    @property
-    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
-        langs = {
-            'good'      : ['python'],
-            'intermediate': ['ts', 'js'],
-            'learning'    : ['c', 'c++']
-        }
-        specialities  = ['ai', 'fullstack']
-        ide           = ['vscode', 'pycharm', 'webstorm']
-        pc            = {
-            'MacOS': {
-                'macbook pro m2': {
-                    'processor': 'm2 | 8 cores',
-                    'ram'      : '16gb',
-                    'gpu'      : 'm2 | 8 cores'
-                }
-            },
-        }
-		return langs, specialities, ide, pc
+@property
+def experiences(self) -> Tuple[Dict[str, str],Dict[str, str]]:
+	"""More information on my linkedIn"""
+	studies = {
+		"ntnu": {
+			"univ"	: "Norwegian University of Science and Technology",
+			"dates"		: "2023-2025",
+			"degree"	: "master",
+			"spe": "artificial intelligence"
+			"loc": "no"
+		},
+		"ecn": {
+			"univ"	: "Ecole Centrale de Nantes",
+			"dates"		: "2020-2025",
+			"degree"	: "master",
+			"spe": "general engineering",
+			"loc": "fr"
+		}
+	}
+	internships = {
+		"rokken": {
+			"company": "@Rokken-lab6",
+			"dates": "2022/11-2023/05",
+			"role": "machine learning engineer intern",
+			"loc": "jp",
+		},
+		"padoa": {
+			"company": "@padoa",
+			"dates": "2022/04-2022/08",
+			"role": "fullstack developer",
+			"loc": "fr"
+		},
+	}
+	return studies, interships
+
+@property
+def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
+	langs = {
+		'good'      : ['python'],
+		'intermediate': ['ts', 'js'],
+		'learning'    : ['c', 'c++']
+	}
+	specialities  = ['ai', 'fullstack']
+	ide           = ['vscode', 'pycharm', 'webstorm']
+	pc            = {
+		'MacOS': {
+			'macbook pro m2': {
+				'processor': 'm2 | 8 cores',
+				'ram'      : '16gb',
+				'gpu'      : 'm2 | 8 cores'
+			}
+		},
+	}
+	return langs, specialities, ide, pc
 ```
 Template found here[^1].
 
