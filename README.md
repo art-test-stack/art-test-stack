@@ -35,7 +35,7 @@ def life(self) -> Tuple[Dict[str, str], int, List[str]]:
 	return langs, age, passions
 
 @property
-def experiences(self) -> Tuple[Dict[str, Dict[str, str]],Dict[str, Dict[str, str]]]:
+def experiences(self) -> Tuple[Dict[str, Dict[str, str]], Dict[str, Dict[str, str]]]:
 	"""More information on my linkedIn"""
 	studies = {
 		"ntnu": {
@@ -73,8 +73,8 @@ def experiences(self) -> Tuple[Dict[str, Dict[str, str]],Dict[str, Dict[str, str
 def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
 	langs = {
 		'good'      : ['python'],
-		'intermediate': ['ts', 'js'],
-		'learning'    : ['c', 'c++']
+		'medium'	: ['ts', 'js'],
+		'learning'	: ['c', 'c++']
 	}
 	specialities  = ['ai', 'fullstack']
 	ide           = ['vscode', 'pycharm', 'webstorm']
