@@ -15,83 +15,83 @@ class Attributes(TestStack):
     @property
     def contact(self) -> Tuple[str, Dict[str, str]]:
         linkedin = "/in/arthur-testard/"
-        emails	 = { 
-			"personal": "testardarthur@gmail.com",
-			"ecn"	  : "arthur.testard@eleves.ec-nantes.fr",
-			"ntnu"	  : "ajtestar@stud.ntnu.no",
-		}
+        emails   = { 
+            "personal": "testardarthur@gmail.com",
+            "ecn"     : "arthur.testard@eleves.ec-nantes.fr",
+            "ntnu"    : "ajtestar@stud.ntnu.no",
+        }
 
         return linkedin, emails
 
     @property
-	def life(self) -> Tuple[List[str], Dict[str, str], int, List[str]]:
-		ids      = ["French", "American"]
-		langs    = {
-			"French"  : "Native",
-			"English" : "Fluent",
-			"Japanese": "Beginner",
-		}
-		age      = 25
-		passions = ["mathematics", "informatic", "physic", "cello", "hikes"]
+    def life(self) -> Tuple[List[str], Dict[str, str], int, List[str]]:
+        ids      = ["French", "American"]
+        langs    = {
+            "French"  : "Native",
+            "English" : "Fluent",
+            "Japanese": "Beginner",
+        }
+        age      = 25
+        passions = ["mathematics", "informatic", "physic", "cello", "hikes"]
 
-		return ids, langs, age, passions
+        return ids, langs, age, passions
 
     @property
     def experiences(self) -> Tuple[Dict[str, Dict[str, str]], Dict[str, Dict[str, str]]]:
-		"""More information on my linkedIn"""
-		studies = {
-			"ntnu": {
-				"univ"	: "Norwegian University of Science and Technology",
-				"dates"	: "2023-2025",
-				"degree": "master",
-				"spe"	: "artificial intelligence"
-				"loc"	: "no"
-			},
-			"ecn": {
-				"univ"	: "Ecole Centrale de Nantes",
-				"dates"	: "2020-2025",
-				"degree": "master",
-				"spe"	: "general engineering",
-				"loc"	: "fr"
-			}
-		}
-		jobs    = {
-			"rokken": {
-				"firm"	: "@Rokken-lab6",
-				"dates"	: "2022/11-2023/05",
-				"role"	: "machine learning engineer intern",
-				"loc"	: "jp",
-			},
-			"padoa": {
-				"firm"	: "@padoa",
-				"dates"	: "2022/04-2022/08",
-				"role"	: "fullstack developer intern",
-				"loc"	: "fr"
-			},
-		}
+        """More information on my linkedIn"""
+        studies = {
+            "ntnu": {
+                "univ"  : "Norwegian University of Science and Technology",
+                "dates" : "2023-2025",
+                "degree": "master",
+                "spe"   : "artificial intelligence"
+                "loc"   : "no"
+            },
+            "ecn": {
+                "univ"  : "Ecole Centrale de Nantes",
+                "dates" : "2020-2025",
+                "degree": "master",
+                "spe"   : "general engineering",
+                "loc"   : "fr"
+            }
+        }
+        jobs    = {
+            "rokken": {
+                "firm"  : "@Rokken-lab6",
+                "dates" : "2022/11-2023/05",
+                "role"  : "machine learning engineer intern",
+                "loc"   : "jp",
+            },
+            "padoa": {
+                "firm"  : "@padoa",
+                "dates" : "2022/04-2022/08",
+                "role"  : "fullstack developer intern",
+                "loc"   : "fr"
+            },
+        }
 
-		return studies, jobs
+        return studies, jobs
 
     @property
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
-		langs = {
-			'good'      : ['python'],
-			'medium'	: ['ts', 'js'],
-			'learning'	: ['c', 'c++']
-		}
-		prefs = ['ai', 'fullstack']
-		ide   = ['vscode', 'pycharm', 'webstorm']
-		pc    = {
-			'MacOS': {
-				'macbook pro m2': {
-					'processor': 'm2 | 8 cores',
-					'ram'      : '16gb',
-					'gpu'      : 'm2 | 8 cores'
-				}
-			},
-		}
+        langs = {
+            'good'    : ['python'],
+            'medium'  : ['ts', 'js'],
+            'learning': ['c', 'c++']
+        }
+        prefs = ['ai', 'fullstack']
+        ide   = ['vscode', 'pycharm', 'webstorm']
+        pc    = {
+            'MacOS': {
+                'macbook pro m2': {
+                    'processor': 'm2 | 8 cores',
+                    'ram'      : '16gb',
+                    'gpu'      : 'm2 | 8 cores'
+                }
+            },
+        }
 
-		return langs, prefs, ide, pc
+        return langs, prefs, ide, pc
 ```
 Template found here[^1].
 
