@@ -39,21 +39,24 @@ class Attributes(TestStack):
 	def experiences(self) -> Tuple[Dict]:
 		"""More information on my linkedIn"""
 		studies = {
-			"ecn": {
-				"school_name"	: "Ecole Centrale de Nantes",
-				"dates"			: "2020-2025",
-				"degree"		: "master",
-				"specialization": ["general engineering", "embedding systems"],
-				"website"		: "https://www.ec-nantes.fr/",
-			}
 			"ntnu": {
 				"school_name"	: "Norwegian University of Science and Technology",
 				"dates"			: "2023-2025",
 				"degree"		: "master",
 				"specialization": ["artificial intelligence", "informatics"],
-				"website"		: "https://www.ec-nantes.fr/",	
+				"website"		: "https://www.ntnu.edu/studies/msit",	
+			},
+			"ecn": {
+				"school_name"	: "Ecole Centrale de Nantes",
+				"dates"		: "2020-2025",
+				"degree"	: "master",
+				"specialization": ["general engineering", "embedding systems"],
+				"website"		: "https://www.ec-nantes.fr/",
 			}
 		}
+		internship = [
+
+		]
 
     @property
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
