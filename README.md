@@ -7,11 +7,12 @@
 ```python
 from typing import Tuple, List, Dict
 
+
 class TestStack:
     pass
 
 class Attributes(TestStack):
-	@property
+    @property
     def contact(self) -> Tuple[str, Dict[str, str]]:
         linkedin = "/in/arthur-testard/"
         emails	 = { 
@@ -21,8 +22,8 @@ class Attributes(TestStack):
 		}
 
         return linkedin, emails
-	
-	@property
+
+    @property
 	def life(self) -> Tuple[List[str], Dict[str, str], int, List[str]]:
 		ids      = ["French", "American"]
 		langs    = {
@@ -35,8 +36,8 @@ class Attributes(TestStack):
 
 		return ids, langs, age, passions
 
-	@property
-	def experiences(self) -> Tuple[Dict[str, Dict[str, str]], Dict[str, Dict[str, str]]]:
+    @property
+    def experiences(self) -> Tuple[Dict[str, Dict[str, str]], Dict[str, Dict[str, str]]]:
 		"""More information on my linkedIn"""
 		studies = {
 			"ntnu": {
@@ -71,8 +72,8 @@ class Attributes(TestStack):
 
 		return studies, jobs
 
-	@property
-	def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
+    @property
+    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
 		langs = {
 			'good'      : ['python'],
 			'medium'	: ['ts', 'js'],
