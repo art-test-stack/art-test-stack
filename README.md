@@ -11,7 +11,8 @@ class TestStack:
     pass
 
 class Attributes(TestStack):
-    @property
+	
+	@property
     def contact(self) -> Tuple[str, Dict[str, str]]:
         linkedin = "/in/arthur-testard/"
         emails	 = { 
@@ -19,8 +20,9 @@ class Attributes(TestStack):
 			"ecn"	  : "arthur.testard@eleves.ec-nantes.fr",
 			"ntnu"	  : "ajtestar@stud.ntnu.no",
 		}
-        return linkedin, emails
 
+        return linkedin, emails
+	
 	@property
 	def life(self) -> Tuple[List[str], Dict[str, str], int, List[str]]:
 		ids      = ["French", "American"]
@@ -31,6 +33,7 @@ class Attributes(TestStack):
 		}
 		age      = 25
 		passions = ["mathematics", "informatic", "physic", "cello", "hikes"]
+
 		return ids, langs, age, passions
 
 	@property
@@ -66,7 +69,8 @@ class Attributes(TestStack):
 				"loc"	: "fr"
 			},
 		}
-		return studies, interships
+
+		return studies, jobs
 
 	@property
 	def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
@@ -86,7 +90,8 @@ class Attributes(TestStack):
 				}
 			},
 		}
-		return langs, specialities, ide, pc
+		
+		return langs, prefs, ide, pc
 ```
 Template found here[^1].
 
