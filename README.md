@@ -98,8 +98,8 @@ class Attributes(TestStack):
 
 # 📊 GitHub Stats:
 
-<p align="center" href="https://github-readme-stats.vercel.app/api?username=art-test-stack&show_icons=true&locale=en">
-![]()</p>
+<p align="center"><a img="https://github-readme-stats.vercel.app/api?username=art-test-stack&show_icons=true&locale=en" />
+</p>
 <p align="center">![](https://github-readme-streak-stats.herokuapp.com/?user=art-test-stack&)</p>
 <p align="center">![](https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&show_icons=true&locale=en)</p>
 
