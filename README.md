@@ -23,20 +23,20 @@ class Attributes(TestStack):
 
 	@property
 	def life(self) -> Tuple[List[str], Dict[str, str], int, List[str]]:
-		ids 	 = ["French", "American"]
-		langs	 = {
+		ids      = ["French", "American"]
+		langs    = {
 			"French"  : "Native",
 			"English" : "Fluent",
 			"Japanese": "Beginner",
 		}
-		age		 = 25
+		age      = 25
 		passions = ["mathematics", "informatic", "physic", "cello", "hikes"]
 		return ids, langs, age, passions
 
 	@property
 	def experiences(self) -> Tuple[Dict[str, Dict[str, str]], Dict[str, Dict[str, str]]]:
 		"""More information on my linkedIn"""
-		studies 	= {
+		studies = {
 			"ntnu": {
 				"univ"	: "Norwegian University of Science and Technology",
 				"dates"	: "2023-2025",
@@ -52,7 +52,7 @@ class Attributes(TestStack):
 				"loc"	: "fr"
 			}
 		}
-		internships = {
+		jobs    = {
 			"rokken": {
 				"firm"	: "@Rokken-lab6",
 				"dates"	: "2022/11-2023/05",
@@ -62,7 +62,7 @@ class Attributes(TestStack):
 			"padoa": {
 				"firm"	: "@padoa",
 				"dates"	: "2022/04-2022/08",
-				"role"	: "fullstack developer",
+				"role"	: "fullstack developer intern",
 				"loc"	: "fr"
 			},
 		}
@@ -70,14 +70,14 @@ class Attributes(TestStack):
 
 	@property
 	def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
-		langs 		  = {
+		langs = {
 			'good'      : ['python'],
 			'medium'	: ['ts', 'js'],
 			'learning'	: ['c', 'c++']
 		}
-		specialities  = ['ai', 'fullstack']
-		ide           = ['vscode', 'pycharm', 'webstorm']
-		pc            = {
+		prefs = ['ai', 'fullstack']
+		ide   = ['vscode', 'pycharm', 'webstorm']
+		pc    = {
 			'MacOS': {
 				'macbook pro m2': {
 					'processor': 'm2 | 8 cores',
