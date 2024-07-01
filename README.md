@@ -179,8 +179,7 @@ Template found here[^1].
 # 🏆 GitHub Trophies
 
 <p href="" align="center">
-    <img alt="" src="
-		https://github-profile-trophy.vercel.app/?username=art-test-stack&theme=tokyonight">
+    <img alt="" src="https://github-profile-trophy.vercel.app/?username=art-test-stack&theme=tokyonight">
 </p>
 
 
