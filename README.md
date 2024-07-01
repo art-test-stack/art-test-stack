@@ -1,9 +1,5 @@
 # Hi there 👋
 
-<!-- 🧑🏼‍🎓 I'm a Franco-American double-degree student at [NTNU](https://www.ntnu.edu/studies/msit) (Norwegian University of Science and Technologies) in the Master of Science in Informatics specializing in artificial intelligence. I come from a preparatory class (French education system) which enabled me to enter the [Ecole Centrale de Nantes](https://www.ec-nantes.fr/) after the competitive entrance exam.  -->
-
-<!-- 🌱 I then try to share on this profile, my projects carried out as part of my studies, but also those carried out for my personal interest, mixing the fields in which I have a particular interest. -->
-
 ```python
 from typing import Tuple, List, Dict
 
@@ -174,18 +170,10 @@ Template found here[^1].
 		https://github-readme-stats.vercel.app/api?username=art-test-stack&theme=tokyonight&show_icons=true&locale=en">
 </p>
 
-<!-- <p href="" align="center">
-    <img alt="" src="
-		https://github-readme-streak-stats.herokuapp.com/?user=art-test-stack&theme=tokyonight&">
-</p> -->
-
-
 <p href="https://git.io/streak-stats" align="center">
     <img alt="" src="
 		https://streak-stats.demolab.com?user=art-test-stack&theme=tokyonight&hide_border=false">
 </p>
-
-<!-- [![GitHub Streak]()]() -->
 
 <p href="" align="center">
     <img alt="" src="
@@ -208,14 +196,8 @@ Template found here[^1].
 # ☕️ Support:
 
 <p href="https://www.buymeacoffee.com/artestack"> 
-	<img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="artestack" />
+	<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="artestack" />
 </p>
-
-<!-- <p href="" align="left">
-	<img alt="" src="https://visitcount.itsvg.in/api?id=art-test-stack&icon=0&color=0)](https://visitcount.itsvg.in"/>
-</p> -->
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 # 📚 References
 
