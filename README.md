@@ -10,25 +10,25 @@ class TestStack:
 class Attributes(TestStack):
     @property
     def contact(self) -> Tuple[str, Dict[str, str]]:
-        linkedin = "/in/arthur-testard/"
+        linkedin = '/in/arthur-testard/'
         emails   = { 
-            "personal": "testardarthur@gmail.com",
-            "ecn"     : "arthur.testard@eleves.ec-nantes.fr",
-            "ntnu"    : "ajtestar@stud.ntnu.no",
+            'personal': 'testardarthur@gmail.com',
+            'ecn'     : 'arthur.testard@eleves.ec-nantes.fr',
+            'ntnu'    : 'ajtestar@stud.ntnu.no',
         }
 
         return linkedin, emails
 
     @property
     def life(self) -> Tuple[List[str], Dict[str, str], int, List[str]]:
-        ids      = ["French", "American"]
+        ids      = ['French', 'American']
         langs    = {
-            "French"  : "Native",
-            "English" : "Fluent",
-            "Japanese": "Beginner",
+            'French'  : 'Native',
+            'English' : 'Fluent',
+            'Japanese': 'Beginner',
         }
         age      = 25
-        passions = ["mathematics", "informatic", "physic", "cello", "hikes"]
+        passions = ['mathematics', 'informatic', 'physic', 'cello', 'hikes']
 
         return ids, langs, age, passions
 
