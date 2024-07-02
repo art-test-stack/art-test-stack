@@ -32,7 +32,30 @@ class Attributes(TestStack):
 
         return ids, langs, age, passions
 
+
     @property
+    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
+        langs = {
+            'good'    : ['python'],
+            'medium'  : ['ts', 'js'],
+            'learning': ['c', 'c++']
+        }
+        prefs = ['ai', 'fullstack']
+        ide   = ['vscode', 'pycharm', 'webstorm']
+        pc    = {
+            'MacOS': {
+                'macbook pro m2': {
+                    'processor': 'm2 | 8 cores',
+                    'ram'      : '16gb',
+                    'gpu'      : 'm2 | 8 cores'
+                }
+            },
+        }
+
+        return langs, prefs, ide, pc
+```
+Template found here[^1].
+<!-- @property
     def experiences(self) -> Tuple[Dict[str, Dict[str, str]], Dict[str, Dict[str, str]]]:
         """More information on my linkedIn"""
         studies = {
@@ -66,30 +89,7 @@ class Attributes(TestStack):
             },
         }
 
-        return studies, jobs
-
-    @property
-    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
-        langs = {
-            'good'    : ['python'],
-            'medium'  : ['ts', 'js'],
-            'learning': ['c', 'c++']
-        }
-        prefs = ['ai', 'fullstack']
-        ide   = ['vscode', 'pycharm', 'webstorm']
-        pc    = {
-            'MacOS': {
-                'macbook pro m2': {
-                    'processor': 'm2 | 8 cores',
-                    'ram'      : '16gb',
-                    'gpu'      : 'm2 | 8 cores'
-                }
-            },
-        }
-
-        return langs, prefs, ide, pc
-```
-Template found here[^1].
+        return studies, jobs -->
 
 # 💬 Contact
 
