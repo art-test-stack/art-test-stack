@@ -151,8 +151,8 @@ Template found here[^1].
 # 📊 GitHub Stats:
 
 <p align="center">
-    <img alt="" src="https://github-readme-stats.vercel.app/api?username=art-test-stack&theme=tokyonight&show_icons=true&locale=en&hide_border=true"/>
     <img alt="" src="https://streak-stats.demolab.com?user=art-test-stack&theme=tokyonight&hide_border=true"/>
+    <img alt="" src="https://github-readme-stats.vercel.app/api?username=art-test-stack&theme=tokyonight&show_icons=true&locale=en&hide_border=true"/>
     <img alt="" src="https://github-readme-stats.vercel.app/api/top-langs?username=art-test-stack&layout=donut&theme=tokyonight&locale=en&hide_border=true"/>
 </p>
 
