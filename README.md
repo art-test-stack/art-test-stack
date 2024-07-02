@@ -32,7 +32,6 @@ class Attributes(TestStack):
 
         return ids, langs, age, passions
 
-
     @property
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
         langs = {
