@@ -114,18 +114,17 @@ Template found here[^1].
 ## 📦 Packages/Libraries/Frameworks
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,fastapi,django,flask" />
-	<!-- add keras, matplotlib, pandas,numpy-->
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,fastapi,django,flask"/>
+    <!-- <br/>
+    <img src="https://skillicons.dev/icons?i=" /> -->
+    <br/>
 	<img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white"/>
 	<img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib"/>
 	<img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"/>
     <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"/>
 	<img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white"/>
+	<img src="https://img.shields.io/badge/Dask-%234a4a4a.svg?style=for-the-badge&logo=Dask&logoColor=%white"/>
+	<img src="https://img.shields.io/badge/Prefect-%230A0FF9.svg?style=for-the-badge&logo=prefect&logoColor=white"/>
   </a>
 </p>
 
@@ -142,7 +141,7 @@ Template found here[^1].
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=apple,linux,ubuntu,windows"/><br/>
-    <img src="https://skillicons.dev/icons?i=git,github,stackoverflow,docker,postgres,sqlite,azure,firebase,tailwind,latex,"/><br/>
+    <img src="https://skillicons.dev/icons?i=git,github,stackoverflow,docker,postgres,sqlite,azure,firebase,tailwind,latex"/><br/>
     <img src="https://img.shields.io/badge/CIRCLECI-02303A.svg?style=for-the-badge&logo=CIRCLECI&logoColor=white&color=%23343434"/>
 </p>
 
