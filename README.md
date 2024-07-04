@@ -125,11 +125,7 @@ Template found here[^1].
 	<img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white"/>
 	<img src="https://img.shields.io/badge/Dask-%234a4a4a.svg?style=for-the-badge&logo=Dask&logoColor=%white"/>
 	<img src="https://img.shields.io/badge/Prefect-%230A0FF9.svg?style=for-the-badge&logo=prefect&logoColor=white"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://skillicons.dev">
+    <br/>
     <img src="https://skillicons.dev/icons?i=npm,yarn,react,nextjs,nodejs" 
 	/>
   </a>
