@@ -137,7 +137,7 @@ Template found here[^1].
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=apple,linux,ubuntu,windows"/><br/>
-    <img src="https://skillicons.dev/icons?i=git,github,stackoverflow,docker,postgres,sqlite,azure,firebase,tailwind,latex"/><br/>
+    <img src="https://skillicons.dev/icons?i=git,stackoverflow,docker,postgres,sqlite,azure,firebase,tailwind,latex"/><br/>
     <img src="https://img.shields.io/badge/CIRCLECI-02303A.svg?style=for-the-badge&logo=CIRCLECI&logoColor=white&color=%23343434"/>
 </p>
 
