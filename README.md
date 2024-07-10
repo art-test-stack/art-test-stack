@@ -119,12 +119,13 @@ Template found here[^1].
     <img src="https://skillicons.dev/icons?i=" /> -->
     <br/>
 	<img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white"/>
-	<img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib"/>
+	<img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=matplotlib"/>
 	<img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"/>
     <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"/>
 	<img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white"/>
 	<img src="https://img.shields.io/badge/Dask-%234a4a4a.svg?style=for-the-badge&logo=Dask&logoColor=%white"/>
 	<img src="https://img.shields.io/badge/Prefect-%230A0FF9.svg?style=for-the-badge&logo=prefect&logoColor=white"/>
+	<img src="https://img.shields.io/badge/pygame-%0ABF53.svg?style=for-the-badge"/>
     <br/>
     <img src="https://skillicons.dev/icons?i=npm,yarn,react,nextjs,nodejs" 
 	/>
